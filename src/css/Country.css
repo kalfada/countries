@@ -1,0 +1,17 @@
+#country{
+    display: flex;
+
+    font-family:monospace;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#img{
+    background-size: 70px 70px;
+    background-position: center;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
