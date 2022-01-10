@@ -1,0 +1,21 @@
+#header{
+    padding: 0 40px;
+    margin: 70px 0;
+}
+
+#H1{
+    font-size: 40px;
+    padding-right: 8px;
+    font-weight: 600;
+}
+
+input{
+    background-color: rgb(233, 227, 227);
+    border: none;
+    font-size: 15px;
+    padding: 20px;
+    padding-right: 40px;
+    border-radius: 15px;
+    position: absolute;
+    right: 20px;
+}

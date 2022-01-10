@@ -1,7 +1,15 @@
 import Country from './Country'
 
-export default function List() {
+export default function List(props) {
+    const { list } = props
     return (
-        <Country />
+        <ul>
+            {list.map(c =>
+                <Country
+                key={c.cca2}
+                {...c}
+                refreshView={props.refreshView}/>
+            )}
+        </ul>
     )
 }

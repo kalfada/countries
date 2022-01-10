@@ -1,17 +1,29 @@
-#country{
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Lato:wght@300&display=swap');
+#country {
     display: flex;
-
-    font-family:monospace;
-    font-size: 20px;
-    font-weight: 900;
+    margin: 20px 0;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: rgb(233, 227, 227);
+    font-size: 18px;
 }
 
-#img{
-    background-size: 70px 70px;
+#img {
+    background-size: 100% 100%;
     background-position: center;
-    margin-right: 10px;
+    margin-right: 15px;
     height: 50px;
     width: 50px;
     border: 1px solid black;
     border-radius: 50%;
+}
+
+.countryName{
+    font-weight: 900;
+}
+
+.continents{
+    color: rgb(114, 109, 109);
 }

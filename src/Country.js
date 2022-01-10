@@ -7,10 +7,10 @@ export default function Country(props) {
         <div id='country'>
             <div id='img' style={{backgroundImage:flagImg}}></div>
             <div>
-                <span>{name.common}</span>
+                <span className='countryName'>{name.common}</span>
                 <span> - </span>
-                <span>{capital}</span>
-                <div>{continents}</div>
+                <span className='capital'>{capital}</span>
+                <div className='continents'>{continents}</div>
             </div>
         </div>
     )
