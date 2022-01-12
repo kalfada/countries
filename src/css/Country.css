@@ -12,9 +12,10 @@
     box-shadow: 0px 0px 4px 0px;
 }
 
-#img {
-    background-size: 100% 100%;
+.img {
+    background-size: cover;
     background-position: center;
+    flex-shrink: 0;
     margin-right: 15px;
     height: 60px;
     width: 60px;
